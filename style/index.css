@@ -162,6 +162,7 @@ address{
     flex-direction: row;
     align-items: stretch;
     Background-color: khaki;
+    justify-content: space-evenly;
 }
 /* about me section*/
 #about{
