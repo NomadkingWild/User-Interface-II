@@ -17,7 +17,7 @@ h1{
     flex-direction: column;
 }
 .toplink{
-    font-size: 20px;
+    font-size: 26px;
     display: flex;
     justify-content: flex-start;
     align-items: right;
@@ -145,4 +145,66 @@ h1{
     font-size: 20px;
     font-family: 'Comic Sans MS';
     font-weight: bold;
+}
+/* contact section starts*/
+#contact{
+    font-size: 38px;
+    font-family: "Comic Sans MS";
+}
+address{
+    font-size: 26px;
+    font-family: "Comic Sans MS", italic;
+    
+}
+/* this is the footer for contacts*/
+.links{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    Background-color: khaki;
+}
+/* about me section*/
+#about{
+    font-size: 40px;
+    font-family: "Comic Sans MS";
+}
+.tabs{
+    display:flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-evenly;
+}
+.first h2{
+font-size: 38px;
+font-family: "Comic Sans MS";
+}
+.hobbies{
+    display:flex;
+    flex-direction: column;
+    font-style: italic;
+    font-size: 26px;
+}
+.second h2{
+    font-size: 38px;
+    font-family: "Comic Sans MS";   
+}
+#bachelors{
+    display:flex;
+    flex-direction: column;
+    font-style: italic;
+    font-size: 26px;
+}
+.media h2{
+    font-size: 38px;
+    font-family: "Comic Sans MS";
+}
+/*this is my projects section*/
+.check{
+    font-size: 26px;
+    font-family: "Comic Sans MS";
+    display:flex;
+    justify-content: space-evenly;
+}
+.topfeet h2{
+    font-size: 38px;
 }
