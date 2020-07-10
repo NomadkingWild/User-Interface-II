@@ -1,1 +1,211 @@
 /* Add CSS styling here */
+*{
+    /*border: solid 1px gray;*/
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    background-color: darkgreen;
+}
+/*this section is my nav*/
+h1{
+    font: 40px ComicSansMS;
+    font-weight: bold;
+    color:darkkhaki;
+}
+.topclass{
+    display: flex;
+    flex-direction: column;
+}
+.toplink{
+    font-size: 26px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: right;
+    background-color: khaki;
+}
+.home{
+    border-style: solid;
+    background-color: khaki;
+    align-items: center;
+    color:green;
+}
+.about{
+    border-style: solid;
+    background-color: khaki;
+    align-items: center;
+    color:green;
+}
+.projects{
+    border-style: solid;
+    background-color: khaki;
+    align-items: center;
+    color:green;
+}
+.contacts{
+    border-style: solid;
+    background-color: khaki;
+    align-items: center;
+    color:green;
+}
+/*this is my section with button*/
+.super{
+    Border: 5px solid black;
+}
+.myphoto{
+    display: flex;
+    flex-direction: row;
+}
+.foto{
+    display: flex;
+    flex-direction: row;
+}
+.photo{
+    width: 35%;
+    padding-right: 2%;
+}
+.photo div{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.names{
+    font-size: 30px;
+    font-family: 'Comic Sans MS';
+    padding: 5%;
+}
+.probutton{
+    border: 2px solid black;
+    font-size: 20px;
+    font-family: 'Comic Sans MS';
+    font-weight: bold;
+    background-color: khaki;
+    border-radius: 20;
+}
+#main1{
+    font-size: 25px;
+    font-family: 'Courier', cursive;
+}
+/*photos section*/
+#randompix{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 5% 0% 0% 0%;
+}
+#randompix2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 5% 0% 0% 0%;
+    padding: 2%;
+}
+.id1 img{
+    width: 25%;
+    align-self: center;
+}
+.id2 img{
+    width:25%;
+    align-self: center;
+}
+.id3 img{
+    width:25%;
+    align-self: center;
+}
+.id4 img{
+    width:25%;
+    align-self: center;
+    margin: 40%;
+}
+.id5 img{
+    width:25%;
+    align-self: center;
+}
+.id6 img{ 
+    width:25%;
+    align-self: center;
+}
+.id7 img{
+    align-self: center;
+    width: 100%;
+}
+.id8 img{
+    align-self: center;
+    width:25%;
+}
+/*this is the footer*/
+#topfeet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    Background-color: khaki;
+}
+.click{
+    border: 2px solid black;
+    font-size: 20px;
+    font-family: 'Comic Sans MS';
+    font-weight: bold;
+}
+/* contact section starts*/
+#contact{
+    font-size: 38px;
+    font-family: "Comic Sans MS";
+}
+address{
+    font-size: 26px;
+    font-family: "Comic Sans MS", italic;
+    
+}
+/* this is the footer for contacts*/
+.links{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    Background-color: khaki;
+    justify-content: space-evenly;
+}
+/* about me section*/
+#about{
+    font-size: 40px;
+    font-family: "Comic Sans MS";
+}
+.tabs{
+    display:flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-evenly;
+}
+.first h2{
+font-size: 38px;
+font-family: "Comic Sans MS";
+}
+.hobbies{
+    display:flex;
+    flex-direction: column;
+    font-style: italic;
+    font-size: 26px;
+}
+.second h2{
+    font-size: 38px;
+    font-family: "Comic Sans MS";   
+}
+#bachelors{
+    display:flex;
+    flex-direction: column;
+    font-style: italic;
+    font-size: 26px;
+}
+.media h2{
+    font-size: 38px;
+    font-family: "Comic Sans MS";
+}
+/*this is my projects section*/
+.check{
+    font-size: 26px;
+    font-family: "Comic Sans MS";
+    display:flex;
+    justify-content: space-evenly;
+}
+.topfeet h2{
+    font-size: 38px;
+}
