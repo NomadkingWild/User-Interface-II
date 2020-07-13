@@ -1,6 +1,6 @@
 /* Add CSS styling here */
 *{
-    /*border: solid 1px gray;*/
+    border: solid 1px gray;
     margin: 0;
     box-sizing: border-box;
     padding: 0;
@@ -104,41 +104,45 @@ h1{
     margin: 5% 0% 0% 0%;
     padding: 2%;
 }
-.id1 img{
-    width: 25%;
-    align-self: center;
+#id1 img{
+    width: 100%;
+    padding: 5%;
 }
-.id2 img{
-    width:25%;
-    align-self: center;
+#id2 img{
+    width:100%;
+    padding: 5%;
 }
-.id3 img{
-    width:25%;
-    align-self: center;
+#id3 img{
+    width:100%;
+    padding: 5%;
 }
-.id4 img{
-    width:25%;
-    align-self: center;
-    margin: 40%;
+#id4 img{
+    width:100%;
+    padding: 5%;
+    
 }
-.id5 img{
-    width:25%;
-    align-self: center;
+#id5 img{
+    padding: 5%;
+    width:100%;
+    
 }
-.id6 img{ 
-    width:25%;
-    align-self: center;
+#id6 img{ 
+    padding: 5%;
+    width: 100%;
+    
 }
-.id7 img{
-    align-self: center;
-    width: 25%;
+#id7 img{
+    padding: 5%;
+    width: 100%;
+    
 }
-.id8 img{
-    align-self: center;
-    width:20%;
+#id8 img{
+    padding: 5%;
+    width: 100%;
 }
 /*this is the footer*/
 #topfeet{
+    padding: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -210,14 +214,20 @@ font-family: "Comic Sans MS";
     display:flex;
     justify-content: space-evenly;
 }
-.topfeet h2{
+#topfeet h2{
+    padding: 2%;
     font-size: 38px;
 }
 /*media queries here*/
 @media(max-width: 800px){
+    .topclass{
+        flex-direction: column;
+        text-align: center;
+    }
      .toplink{
         flex-direction: column;
         text-align: center;
+        border: 2px solid black;
 }
     #myphoto{
         height: 75%;
@@ -231,8 +241,10 @@ font-family: "Comic Sans MS";
         justify-content: space-evenly;
         padding: 10%;
 }
-    #fused{
-        flex-direction: column;
+
+    .fused1{
+        display: flex;
+        flex-wrap:wrap;
 }
 #randompix{
         flex-wrap: wrap;
@@ -246,7 +258,8 @@ font-family: "Comic Sans MS";
     flex-wrap: wrap;
     align-items: center;
 }
-}
+
+
 @media(max-width: 500px){
     .photo{
             width: 20%;
@@ -269,7 +282,6 @@ font-family: "Comic Sans MS";
 
 }
     .fused1{
-        flex-direction: column;
         flex-wrap: wrap;
         width: 100%;
 }  
@@ -277,22 +289,31 @@ font-family: "Comic Sans MS";
         width: 100%;
         align-items: center;
         flex-wrap: wrap;
-        justify-content: space-evenly;
-        margin-left: 10%;
+        justify-content: space-between;
         flex-direction: column;
 
 }
     #randompix2{
         align-items: center;
         flex-wrap: wrap;
-        justify-content:space-evenly;
-        padding: 2%;
+        justify-content:space-around;
+        flex-direction: column;
+        width: 100%;
 }   
 .super{
     border: 0px;
+}
+#id8 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+#id7{
+    flex-wrap: wrap;
 }
 @media (prefers-reduced-motion: reduce) {
     button {
       animation: none;
     }
-  }
+}
+}
