@@ -209,3 +209,10 @@ font-family: "Comic Sans MS";
 .topfeet h2{
     font-size: 38px;
 }
+/*media queries here*/
+@media(max-width: 800px){
+
+}
+@media(max-width: 500px){
+    
+}
