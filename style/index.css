@@ -24,24 +24,28 @@ h1{
     background-color: khaki;
 }
 .home{
+    text-decoration: none;
     border-style: solid;
     background-color: khaki;
     align-items: center;
     color:green;
 }
 .about{
+    text-decoration: none;
     border-style: solid;
     background-color: khaki;
     align-items: center;
     color:green;
 }
 .projects{
+    text-decoration: none;
     border-style: solid;
     background-color: khaki;
     align-items: center;
     color:green;
 }
 .contacts{
+    text-decoration: none;
     border-style: solid;
     background-color: khaki;
     align-items: center;
@@ -127,11 +131,11 @@ h1{
 }
 .id7 img{
     align-self: center;
-    width: 100%;
+    width: 25%;
 }
 .id8 img{
     align-self: center;
-    width:25%;
+    width:20%;
 }
 /*this is the footer*/
 #topfeet{
@@ -211,8 +215,59 @@ font-family: "Comic Sans MS";
 }
 /*media queries here*/
 @media(max-width: 800px){
-
+     .toplink{
+        flex-direction: column;
+        text-align: center;
+}
+    #myphoto{
+    height: 50%;
+}
+    .foto{
+    flex-direction:column;
+    text-align: center;
+    align-items: center;
+}
+    #fused{
+    flex-direction: column;
+}
+#randompix{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2% 4%
+    
+}
+}
+#randompix2{
+    flex-wrap: wrap;
+    align-items: center;
+}
 }
 @media(max-width: 500px){
-    
+    .photo div{
+        font-size: 1.2rem;
+    }
+    #myphoto{
+    flex-direction: column;
+    align-items: center;
+    }
+    .foto{
+    align-items: center;
+    flex-direction: column;
+}
+    #fused{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+    #randompix{
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+}
+    #randompix2{
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
 }
