@@ -220,21 +220,25 @@ font-family: "Comic Sans MS";
         text-align: center;
 }
     #myphoto{
-    height: 50%;
+        height: 75%;
+        text-align: center;
+
 }
     .foto{
-    flex-direction:column;
-    text-align: center;
-    align-items: center;
+        align-items: center;
+        width: 100%;
+        flex-direction:column;
+        justify-content: space-evenly;
+        padding: 10%;
 }
     #fused{
-    flex-direction: column;
+        flex-direction: column;
 }
 #randompix{
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 2% 4%
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 2% 4%
     
 }
 }
@@ -247,27 +251,34 @@ font-family: "Comic Sans MS";
     .photo div{
         font-size: 1.2rem;
     }
-    #myphoto{
-    flex-direction: column;
-    align-items: center;
+    #myphoto{    
+        flex-direction: column;
+        align-items: center;
     }
     .foto{
-    align-items: center;
-    flex-direction: column;
+        padding: 5%;
+        width: 50%;
+        align-items: center;
+        flex-direction: column;
+
 }
     #fused{
-    flex-direction: column;
-    flex-wrap: wrap;
-}
+        flex-direction: column;
+        flex-wrap: wrap;
+}  
     #randompix{
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-left: 10%;
 }
 
 }
     #randompix2{
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content:space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+}   
+.super{
+    border: 0px;
 }
