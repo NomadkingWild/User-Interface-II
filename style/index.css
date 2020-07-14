@@ -1,6 +1,6 @@
 /* Add CSS styling here */
 *{
-    border: solid 1px gray;
+    /*border: solid 1px gray;*/
     margin: 0;
     box-sizing: border-box;
     padding: 0;
@@ -286,7 +286,7 @@ font-family: "Comic Sans MS";
         width: 100%;
 }  
     #randompix{
-        width: 100%;
+        width: 50%;
         align-items: center;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -298,19 +298,13 @@ font-family: "Comic Sans MS";
         flex-wrap: wrap;
         justify-content:space-around;
         flex-direction: column;
-        width: 100%;
+        width: 50%;
 }   
 .super{
     border: 0px;
 }
-#id8 {
-    display: flex;
-    flex-wrap: wrap;
-    width: 50%;
-}
-#id7{
-    flex-wrap: wrap;
-}
+
+
 @media (prefers-reduced-motion: reduce) {
     button {
       animation: none;
