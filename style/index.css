@@ -284,19 +284,21 @@ font-family: "Comic Sans MS";
     .fused1{
         flex-wrap: wrap;
         width: 100%;
+        align-items: center;
+        justify-content:space-evenly ;
 }  
     #randompix{
         width: 50%;
         align-items: center;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-evenly;
         flex-direction: column;
 
 }
     #randompix2{
         align-items: center;
         flex-wrap: wrap;
-        justify-content:space-around;
+        justify-content:space-evenly;
         flex-direction: column;
         width: 50%;
 }   
